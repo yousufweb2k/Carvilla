@@ -1,8 +1,13 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-body{
+*{
     padding: 0px;
     margin: 0px;
     
+}
+body{
+    
+    font-family:'quicksand';
 }
 .header{
     background-color:black;
@@ -15,7 +20,6 @@ body{
     align-items: center;
     width: 1200px;
     margin: auto;
-    font-family: quicksand;
     
 }
 .logo{
@@ -39,7 +43,8 @@ body{
     text-decoration: none;  
 }
 .hero-section{
-    background:  url('./images/welcome-banner.jpg');
+    background-image: linear-gradient(rgba(86, 81, 189, 0.418), rgba(4, 9, 30, 0.7)),
+    url(./images/welcome-banner.jpg);
     height: 90vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -47,33 +52,34 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
 }
 .hero-div{
-    width: 500px;
     text-align: center;
 }
 .heading-div h1{
     color: white;
-    font-size: 35px;
-    font: 600;
+    font-size: 40px;
+    font: 900;
     text-transform: uppercase;
 }
 .heading-div p{
     color: white;
-    font-size: 15px;
-    font: 400;
+    font-size: 22px;
+    font: 500 ;
+    margin: 30px auto;
+    max-width: 550px;
 }
 .button-div{
     display: inline-block;
-    padding: 12px 18px;
-    background-color: coral;
+    padding: 15px 60px;
+    background-color: rgb(35, 11, 247);
     color: white;
     font: 600;
     border-radius: 8px;
     cursor: pointer;
 }
 .button-div:hover{
-    background-color: rgb(255, 77, 12);
+    background-color: rgb(52, 58, 242);
     transition: 0.7s;
 }
