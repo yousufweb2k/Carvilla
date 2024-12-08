@@ -141,7 +141,7 @@ font-size: 18px;
 /* highlight */
 .highlight-section{
     margin-top: 300px;
-    margin-bottom: 300px;
+    /* margin-bottom: 300px; */
     width: 1200px;
     margin-left: 165px;
     /* margin: auto; */
@@ -190,14 +190,99 @@ font-size: 18px;
 span:hover{
 background-color: white;
 }
+/* newest-Cars */
+.newest-section{
+padding: 100px 0px;
+}
+.newest-div{
+
+}
+.newest-heading{
+text-align: center;
+}
+.newest-heading h4{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: quicksand;
+    color: rgb(110, 116, 116);
+
+
+}
+.newest-heading h2{
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-family: quicksand;
+
+}
+.newest-heading span{
+    content:" " ;
+    height: 3px;
+    width: 60px;
+    background-color: blue;
+    display:block;
+    margin: auto;
+}
+.newest-div{
+    width: 1200px;
+    margin: auto;
+}
+.newest-content{
+    display: flex;
+    padding: 100px 0px;
+    gap: 70px;
+}
+.newest-details h2{
+    font-size: 36px;
+    font-family: quicksand;
+    color: rgb(97, 96, 96);
+    margin-bottom: 30px;
+}
+.newest-details p{
+    font-family: quicksand;
+    color: rgb(97, 96, 96);
+    text-align: justify;
+}
+.newest-details button{
+    margin-top: 30px;
+    background-color: blue;
+    color: white;
+    padding: 21px 58px 21px 58px;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size:medium;
+}
+.next-circle{
+    width: 1200px;
+    font-size: 16px;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+.circle li i{
+    font-size: 8px;
+}
+/* featured-cars */
 
 
 
 
 
-
-
+/* brand */
+.brand-section{
+    width: 1200px;
+}
+.brand-div{
+    display: flex;
+    gap: 70px;
+    margin-top: 200px;
+    margin-left: 170px;
+    
+}
 .blank-section{
     margin-top: 200px;
+   
 }
 
